@@ -1,6 +1,28 @@
 // This line allows us to bring in the data object from our data.js file
 const data = window.data;
 
+/*
+tasks---
+- get reference to the big_coffee elemet. (do this at the top of file - see notes at top)
+- add click event handler to the big_coffee element. (do this at bottom of file - see notes at bottom for 'Event Listeners')
+- the event handler should call the 'clickCoffee' function and pass in the 'data' object to it.
+- then work on 'clickCoffee' (since this is the next logical functionality in the chain of events).
+- each function will have it's own respective list of tasks that need to be completed in the order that it lists.
+- from here, there are two approaches to working on these functions:
+  1. do every task in a function before moving on to another function 
+    (does NOT give the best experience of understanding)
+    (also could cause some challenging bugs towards the end of the project)
+  
+  2. do task by task but switch to different parts of the code in the order of function calls
+    (gives a good understanding of the flow of data and chain of events)
+    (you will have an easier time debugging since you will have a good idea of the data flow)
+    
+  
+*/
+
+
+
+
 // Make your References to the two DOM nodes
 
 // Create a reference to the element who's ID is 'big_coffee and call it bigCoffee
@@ -164,3 +186,5 @@ function tick(data) {
 
 // You do not need to edit this last line. This simple runs your tick function every 1000ms, or 1s
 setInterval(() => tick(data), 1000);
+
+
